@@ -1,9 +1,9 @@
 ---
-title : "Quelques ressources R et Python utiles pour s'autoformer"
-subtitle : "Rencontres Spyrales"
-author : "Lino Galiana, Olivier Chantrel"
-institute : "Insee, MTES"
-date : "30 novembre 2021"
+title : "Ressources `Python` pour s'autoformer sur le `SSPCloud`"
+subtitle : "`Onyxia ScaleUp`"
+author : "Lino Galiana"
+institute : "Insee"
+date : "11 mars 2022"
 output :
     utilitr::utilitr_presentation:
         css:
@@ -20,29 +20,10 @@ options(htmltools.dir.version = FALSE)
 
 
 
-# Enjeu
+# Présentation catalogue `Python`
 
-## Pourquoi ne pas se contenter des documentations existantes ?
+## Catalogue
 
-
-**1. Cibler les ressources pertinentes**
-
-- Eclatement de la documentation des écosystèmes `R` et `Python` ; <br>
-- Barrière linguistique : la grande majorité de la documentation est en anglais ; <br>
-- Niveaux hétérogènes
-<br><br>
-
---
-
-**2. Bénéficier de l'expérience d'utilisateurs** :
-
-- Diversité des cas d'usage de `R` ou `Python` dans le service public ; <br>
-- Multiplicité de *packages*, de qualité variable et parfois redondants ; <br>
-- Utiliser un langage pour un projet statistique n'implique pas les mêmes pratiques
-que pour un projet d'application
-
----
-# Panorama incomplet des ressources disponibles (1/2)
 
 
 **1. Modules d'autoformation sur [sspcloud.fr/documentation](https://www.sspcloud.fr/documentation);**
@@ -50,8 +31,6 @@ que pour un projet d'application
 + Notebooks pédagogiques, différents niveaux accessibles
 + Environnements normalisés: pas de problèmes d'installation de *packages*
 + Formation aux bonnes pratiques: modularité, contrôle de version, stockage séparé du code
-+ `Funcamp` pour découvrir sous forme ludique `R` (avec des missions à la `Zelda`)
-<br><br>
 
 --
 
