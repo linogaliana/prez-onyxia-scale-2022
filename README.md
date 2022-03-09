@@ -1,8 +1,10 @@
-# spyrales-pres
+# `onyxia-scale-up`
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-Code source de la présentation aux rencontres spyrales du 30
-novembre 2021. Support disponible [ici](https://linogaliana-spyrales-rencontres-prez.netlify.app)
+Code source de la présentation aux rencontres 
+onyxia scale-up du 11 mars 2022.
+
+Support disponible [ici](https://linogaliana-scaleup-onyxia.netlify.app)
 
