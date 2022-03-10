@@ -96,13 +96,60 @@ knitr::include_graphics("badges.png")
 ---
 name: deploiement
 # Comment déployer sur le `SSPCloud` ?
+## Pourquoi ?
 
-TO BE COMPLETED
+- Des notebooks sont disponibles sur `Github`([exemple](https://github.com/linogaliana/python-datascientist/blob/master/notebooks/course/NLP/01_intro.ipynb))
+- Objectifs:
+    + permettre aux personnes intéressées de tester les exemples/exercices dans un environnment Jupyter
+    + contrôler l'environnement d'exécution pour éviter les problèmes d'installation
+- Solution: déploiement automatique sur le SSPCloud
 
+---
+# Comment déployer sur le `SSPCloud`
+## Avantages
+
+- Pour les formés:
+    + Pas d'installation d'Anaconda, Jupyter, modules Python sur Windows, etc.
+    + Très simple d'usage : un click et on a un notebook opérationnel
+--
+
+- Pour les formateurs:
+    + Plus à gérer plusieurs configurations ou des spécificités propres à chaque OS ou poste de travail
+    + Possibilité d'associer ça à l'intégration continue pour tester la reproductibilité
+
+--
+- Challenge:
+    + Mise en place assez exigeante initialement...
+    + ... mais gains de confort rapidement
+
+---
+# Comment déployer sur le `SSPCloud` ?
+## Contrôler la portabilité de sa formation
+
+- L'idéal est que les formés aient un environnement prêt à l'emploi:
+    + Un environnement de développement avec des modules adéquats (auto-complétion, Gitlens...)
+    + Pas de dépendance à installer..
+    + ... ou installation facile de celles-ci
+- Pour les formés, possibilité de sauvegarder les codes avec `Git`
+(formation aux bonnes pratiques)
+
+
+--
+- Construire une image `Docker` qui contient les éléments minimaux pour pouvoir
+démarrer :
+    + Exemple `Python`: un environnement `Anaconda` prêt à l'emploi ;
+    + Exemple `R`: dépendances listées (ou préinstallées) dans un fichier `Description`
+
+--
+- Chaque `commit` sur `Github` permet de mettre à jour les notebooks disponibles
+dans le catalogue
 
 ---
 name: retex
 # Retour d'expérience suite au cours de l'ENSAE
 
-TO BE COMPLETED
-
+- Plus à galérer entre les étudiants utilisant les postes de l'ENSAE et
+ceux ayant leur propre ordinateur ;
+- Installation des modules très pratique (merci OS Linux!) ;
+- Beaucoup de ressources RAM et CPU sur SSPCloud (vs réseau ENSAE) ;
+- Formation à Git par l'usage
